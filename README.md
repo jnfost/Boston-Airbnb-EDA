@@ -1,5 +1,5 @@
 # Boston Airbnb Analysis
-Airbnbs have become a new trend in the last decade. We all have been on vacation and wanted a place to feel like home without the feeling of being in a hotel. Especially with large groups, people can save money and stay longer in an Airbnb. The chosen Kaggle dataset provides a lot of information including price, ratings, location, availability property types. 
+Airbnbs have become a new trend in the last decade. We all have been on vacation and wanted a place to feel like home without the feeling of being in a hotel. Especially with large groups, people can save money and stay longer in an Airbnb. The chosen Kaggle dataset provides a lot of information including price, ratings, location, and availability. 
 
 The goal of this project was to identify the best neighborhood and type of property to purchase in the Boston Area for rental with Airbnb. Using Jupyter Lab, we analyzed the data and created a heat map of all properties by price. We also did some analysis to decide which neighborhood would be the best in which to purchase a property based on price and ratings. We also chose the best property type and number of bedrooms also based on the best pricing and ratings.
 

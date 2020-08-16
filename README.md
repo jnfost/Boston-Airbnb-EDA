@@ -40,6 +40,10 @@ The team conducted analysis based on bar graphs to determine the number of bedro
 
 Beyond the Data
 
-Further analysis that could have been done was a value analysis in order to determine the most profitable price range to list the properties once purchased. From the current data the team would be able to pull the five listings in South End with the highest prices and begin analysis from there. Additional information not included in this dataset the team could use is data related to maintenance costs of similar Airbnb listings in the area.
-Once the properties were listed, property management will also affect profitability so further analysis could’ve been done to determine best host practices. The current dataset would allow the team to analyze response rate and response time of hosts as well as strictness of cancellation policy against overall rating scores. Additional qualitative data on guests compliments and complaints could also offer valuable analysis but was not available in this current dataset.
+Further analysis that could have been done was a value analysis in order to determine the most profitable price range to list the properties once purchased. From the current data the team would be able to pull the five listings in South End with the highest prices and begin analysis from there. 
+
+Additional information not included in this dataset the team could use is data related to maintenance costs of similar Airbnb listings in the area.
+Once the properties were listed, property management will also affect profitability so further analysis could’ve been done to determine best host practices. 
+
+The current dataset would allow the team to analyze response rate and response time of hosts as well as strictness of cancellation policy against overall rating scores. Additional qualitative data on guests compliments and complaints could also offer valuable analysis but was not available in this current dataset.
 

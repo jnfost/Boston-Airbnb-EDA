@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+​
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+​
+    <title>Boston AirBNB</title>
+​
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+	<link rel="stylesheet" type="text/css" href="../static/css/home.css">
+​
+  </head>
+​
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-Xlg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--<div style="padding-left: 500px;">-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data-table">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tableau
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="tableauyear">Release Year</a>
+                <a class="dropdown-item" href="tableaugenre">Genre</a>
+                <a class="dropdown-item" href="tableaudirector">Director</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Models
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="rf">Random Forest</a>
+                <a class="dropdown-item" href="models">Other Models</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="members">Members</a> 
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+<!--END OF NAVBAR-->
+  <div class="container">
+    <div class="jumbotron" style="background-image: url('Images/'); background-size: 100%;">
+        <div class="container for-about">
+        <div class="container">
+        <h1 class="display-3" style="color: white;">Predict Your Movie Rating</h1>
+        <p class="lead" style="color:white;">For our final project, we will be using various models to determine the best method for predicting the IMDB rating of a movie based on historical data. </p>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-xs-12 col-sm-12 mt-3">
+        <div class="card mt-3 home-card">
+          <div class="card-body">
+            <h3>IMDB Movie Ratings</h3>
+            <hr>
+            <h5 class="mt-4">About</h5>
+            <p>
+              Have you ever watched a movie and ended up disappointed with the outcome? 
+              Our project focused on designing models to predict IMDB movie ratings based on genre, year of release, budget, duration, and director.
+              We tested four machine learning models and visualized our data through the use of Tableau.  
+            </p>
+            <div class="row">
+              <div class="col-md-4">
+                <p>No longer do we have to waste 
+                time, money, and energy watching a less than inspiring movie.
+                Browse our website for more details!</p>
+                <h5 class="mt-5">
+                </h5>
+              </div>
+              <div class="col-md-8">
+                <img class="landing-image img-fluid" src="/static/Images/best_movie.jpg" alt="Popular Movies">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-12 mt-3">
+        <div class="card mt-3 home-card">
+          <div class="card-body">
+            <h5 class="card-title">Data</h5>
+            <p class="card-text">It is imperative to ALWAYS START WITH DATA. Explore our data first by clicking the button below.</p>
+            <a type="button" href="data-table" class="btn btn-dark orange-btn mt-2">View</a>
+          </div>
+        </div>
+        <div class="card mt-3 home-card">
+          <div class="card-body">
+            <h5 class="card-title">Visualizations</h5>
+            <p class="card-text">Explore the features behind our predictive models through Tableau visualizations.</p>
+            <a type="button" href="tableauyear" class="btn btn-dark orange-btn mt-2">View </a>
+          </div>
+        </div>
+        <div class="card mt-3 home-card">
+          <div class="card-body">
+            <h5 class="card-title">Predictive Models</h5>
+            <p class="card-text">
+              Through trial and error, we found that the Random Forest Classifier is the best predictor.
+              Click the button below to predict an IMDB movie rating.
+            </p>
+            <a type="button" href="rf" target="_blank" class="btn btn-dark orange-btn mt-2">Random Forest</a>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

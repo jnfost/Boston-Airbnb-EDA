@@ -86,9 +86,13 @@ h3 {
     margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
   }
   .navbar-light .navbar-brand {
-    color: white;
+    color: #23415c;
     background-color:#23415c;
     border-color: white;
     border-style: solid;
   }
+  .navbar{
+    background-color: #23415c;
+    border: 30px;
+}
 

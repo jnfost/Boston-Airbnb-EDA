@@ -1,5 +1,5 @@
 body{
-    background: black;
+    background: white;
     background-size: cover;
     background-repeat: repeat-y;
     color: blacks;
@@ -43,7 +43,7 @@ body{
     margin-top: -55px;
 }
 .jumbotron {
-    background: black;
+    background: white;
     padding: 10%;
 }
 .jumbotron_model {

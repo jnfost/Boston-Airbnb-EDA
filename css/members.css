@@ -5,7 +5,7 @@ body{
     color: blacks;
     font-family: Arial, Helvetica, sans-serif;
 }
-.box h1{
+/* .box h1{
     font-size:70px;
     font-weight: bold;
     color: rgb(145, 7, 7);
@@ -26,7 +26,7 @@ body{
     padding: 4px 10px;
     font-weight: bold;
     text-align: center;
-    }
+    } */
 #firstpara{
     font-size: 60px;
     /*margin: 70px 551px;*/

@@ -10,7 +10,7 @@
 ​
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
-	<link rel="stylesheet" type="text/css" href="../static/css/home.css">
+	<link rel="stylesheet" type="text/css" href="./css/neighborhood.css">
 ​
   </head>
 ​
@@ -46,3 +46,35 @@
       </div>  
     </nav>
 <!--END OF NAVBAR-->
+    <div class= "container">
+      <div class="row" id="neighborhood">
+        <p>
+          The team first had to establish that there was a statistical significance between neighborhoods in Boston listed on Airbnb to purchase property in, based on price and ratings. Using the one way ANOVA test, our analysis found p-values for price (1.85e-119) and ratings (2.19e-30) signalled statistically significant relationships with Boston neighborhoods listed on Airbnb. We then moved forward to try to determine which neighborhoods would be best to invest in based on ratings and price.
+        </p>
+      </div>
+      <div class="row" id="images">
+        <div class= "col-md-6">
+          <div id= "price">
+            <img class="rounded mx-auto d-block" id="meteor-image" width= 90% height= 80% src="./Images/PriceByNeighborhoodBW.PNG" alt="Price Box">
+          </div>
+        </div>
+        <div class= "col-md-6">
+          <div id= "rating">
+            <img class="rounded mx-auto d-block" id="meteor-image" width= 90% height= 80% src="./Images/RatingByNeighborhoodBW.PNG" alt="Rating Box">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row" id="neighborhood">
+        <p>
+          We created box & whisker plots of the median price and ratings for listings in each neighborhood of interest to find which neighborhoods consistently generated high ratings at the highest prices. The South Boston Waterfront and South End neighborhoods were the only two areas that appeared in the top five in both plots. However, South Boston Waterfront has a very low number of listings which we believe skewed the data. Therefore, we decided South End was the more significantly profitable neighborhood.
+        </p>
+      </div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- <script src="neighborhoods.js"></script> -->
+
+  </body>
+
+</html>

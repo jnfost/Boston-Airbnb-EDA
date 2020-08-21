@@ -51,10 +51,10 @@ body{
     padding: 5px;
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
+.row {
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .container{

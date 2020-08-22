@@ -39,7 +39,10 @@ d3.json("final_neighborhood_data.json").then(function(data) {
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x))
     .selectAll("text")
-      .attr("transform", "rotate(-45)")
+      .attr("y", 20)
+      .attr("x", -18)
+      .attr("transform", "rotate(-30)")
+           
 
   // Show the Y scale
   var y = d3.scaleLinear()
@@ -135,7 +138,9 @@ d3.json("final_neighborhood_data.json").then(function(data) {
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x))
     .selectAll("text")
-      .attr("transform", "rotate(-45)")
+      .attr("y", 20)
+      .attr("x", -18)
+      .attr("transform", "rotate(-30)")
 
   // Show the Y scale
   var y = d3.scaleLinear()

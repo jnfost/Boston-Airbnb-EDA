@@ -1,13 +1,13 @@
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 40},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 500 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#price")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("height", height + margin.top + margin.bottom + 50)
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
@@ -72,7 +72,7 @@ d3.json("final_neighborhood_data.json").then(function(data) {
         .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
         .attr("width", boxWidth )
         .attr("stroke", "black")
-        .style("fill", "#69b3a2")
+        .style("fill", "blue")
 
   // Show the median
   svg
@@ -103,7 +103,7 @@ d3.json("final_neighborhood_data.json").then(function(data) {
 var svg2 = d3.select("#rating")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("height", height + margin.top + margin.bottom +50)
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
@@ -168,7 +168,7 @@ d3.json("final_neighborhood_data.json").then(function(data) {
         .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
         .attr("width", boxWidth )
         .attr("stroke", "black")
-        .style("fill", "#69b3a2")
+        .style("fill", "red")
 
   // Show the median
   svg2

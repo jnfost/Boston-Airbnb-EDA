@@ -46,3 +46,34 @@
       </div>  
     </nav>
 <!--END OF NAVBAR-->
+<div class= "container">
+  <div class="row" id="propertytype">
+    <p>
+      We decided that for South End the most popular property types listed were "Apartment, Condo, House, and townhouse compared to boats and bed & breakfasts and here are the percentages as you can see the top 2 are Apartments and Condo.    </p>
+  </div>
+  <div class="row" id="images" img src="./images/PropertyTypePie.png">
+    <div class= "col-md-6">
+      <div id= "price by propertytype"></div>
+    </div>
+    <hr>
+    <div class= "col-md-6">
+      <div id= "rating by propertytype"></div>
+    </div>
+  </div>
+  <div class="row" id="propertytype">
+    <p>
+      Based on those property types we choose to analysis the ratings. We choose condo's due to them being in the top 2 of our datasets and determined condo 's  and townhouses had the highest ratings. Here we realized that the data maybe slightly skewed due to the number of Apartments in the pie chart.    </p>
+  </div>
+</div>
+  <hr>
+  <div class="row" id="propertytype">
+    <p>
+      Lastly, we checked the price of the property types in South End and choose condominium for our client due to it appearing in all 3  datasets property type,  ratings  & price  as the top 2 most popular. House is much higher in the price but not in ratings compared to condo.  We also tested the property type for the t.test and it pulled a low p.value that means the data is significant to our analysis.   </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="propertytype.js"></script>
+
+</body>
+
+</html>

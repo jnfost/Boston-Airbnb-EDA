@@ -1,0 +1,98 @@
+body{
+    background: navy;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box h1{
+    font-size:45px;
+    font-weight: bold;
+    color: red;
+    margin: 0px 20px;
+    display: inline;
+}
+.box button{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 70px;
+    background-color: red;
+    border: none;
+    padding: 7px 14 px;
+}
+.box button a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    text-align: center;
+    }
+#firstpara{
+    font-size: 60px;
+    /*margin: 70px 551px;*/
+    font-weight: bold;
+    text-align: center;
+    margin-top: 250px;
+}
+#sndpara{
+    font-size: 33px;
+   /* margin: 0px 478px;*/
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: -55px;
+}
+.jumbotron h1{
+    text-decoration-color: antiquewhite;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.jumbotron p{
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.lead {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+  }
+  
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+  }
+  .page-body {
+    width: 100%;
+    background-color: white;
+    color: #23415c;
+  margin-top: 40px;
+  margin-bottom: 40px;
+    padding: 10px 30px 10px;
+  }
+  

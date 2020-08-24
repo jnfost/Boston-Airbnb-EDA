@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Boston AirBNB: Data</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css"> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  </head>
+​
+<body>
+      <!-- navbar -->
+      <div class="navbar-container navbar-custom">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Boston AirBNB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--<div style="padding-left: 500px;">-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="data-table.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visualizations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="heatmap.html">Pricing</a>
+                <a class="dropdown-item" href="neighborhoods.html">Neighborhoods</a>              
+                <a class="dropdown-item" href="bedrooms.html">Bedrooms Available</a>
+                <a class="dropdown-item" href="propertytype.html">Property</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="members.html">Members</a> 
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+  <!--END OF NAVBAR-->
+</div>
+<p></p>
+<p></p>
+<div class="wrapper">
+</div>
+<div class="container" style="background-color:whitesmoke">
+  <div class="row margin-top-50">
+    <div class="col-md-2">
+      <aside class="filters">
+            <div class="container"> 
+              <div class="row margin-top-50">
+              <div class="col-md-2">
+      </div>
+        </aside>
+        </div>
+          <div id="table-area" class="" style= "color:whitesmoke;">
+            <table id="airbnb-table" class="table table-striped" style="background-color:whitesmoke">
+              <thead>
+              <tr>
+              <th class="table-head">FIELD1</th>
+              <th class="table-head">id</th>
+              <th class="table-head">price</th>
+              <th class="table-head">host_response_rate</th>
+              <th class="table-head">neighbourhood_cleansed</th>
+              <th class="table-head">review_scores_rating</th>
+              <th class="table-head">cancellation_policy</th>
+              <th class="table-head">property_type</th>
+              <th class="table-head">bedrooms</th>
+            </tr>
+          </thead>
+          <tbody id="body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+  </div>
+  <footer class="footer">
+</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="css/final_data.js"></script>
+    </body>
+</html>

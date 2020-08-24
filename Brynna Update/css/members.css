@@ -1,0 +1,78 @@
+body{
+    background: white;
+    background-size: cover;
+    background-repeat: repeat-y;
+    color: blacks;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#firstpara{
+    font-size: 60px;
+    /*margin: 70px 551px;*/
+    font-weight: bold;
+    text-align: center;
+    margin-top: 250px;
+}
+#sndpara{
+    font-size: 33px;
+   /* margin: 0px 478px;*/
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: -55px;
+}
+.jumbotron {
+    background: white;
+    padding: 10%;
+}
+.card-body {
+    float: center;
+}
+.jumbotron h1{
+    text-decoration-color: white;
+}
+.jumbotron h2{
+    text-align: center;
+    color: white;
+}
+.jumbotron p{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float:left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+    overflow:auto;
+}
+.gallery{
+    margin: 20px;
+    float: center;
+    width: 250px;
+}
+.gallery img{
+    width:100%;
+    float: center;
+    height: auto;
+}
+
+.title {
+    font-size: 25px;
+}
